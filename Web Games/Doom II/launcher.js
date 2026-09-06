@@ -285,13 +285,13 @@ async function start() {
 
   await loadWad();
 
-  console.log("Starting DOOM...");
+  console.log("loading wasm...");
 
   bootDoom();
 
   startLoop();
 
-  console.log("DOOM II is running.");
+  console.log("LETS GOO!");
 }
 
 window.__doomLauncher = {
